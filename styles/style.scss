@@ -244,7 +244,6 @@ html {
 
 
         .top{
-            // position: absolute;
             float: right;
             width: 20%;
             bottom: 300px;
@@ -254,28 +253,55 @@ html {
             right: 0px;
             position: fixed;
             display: block;
-    
             }
 
         .bottom {
-            padding: 5px;
+            float: right;
+            width: 20%;
+            bottom: 261px;
+            vertical-align: middle;
+            height: 40px;
+            border: 1px solid grey;
+            right: 0px;
             position: fixed;
             display: block;
 
-            .logoLeft{
-                width:50px;
-                height:50px;
+
+            .logoLeft {
+                // float: right;
+                // width: 20%;
+                bottom: 261px;
+                vertical-align: middle;
+                height: 50px;
+                position: fixed;
+
+            }
+
+            .text{
+                position: fixed;
+            }
+
+            .followMe {
+                background: lightblue;
+                height: 50px;
+                width: 100px;
+                bottom: 261px;
+                vertical-align: middle;
+                height: 50px;
+                position: fixed;
+                right:0;
+
             }
     
         }
 
     }
-    .footer{
+    .footer {
         width:100%;
         display:block;
         
 
-        p{
+        p {
             width: 80%;
             margin:0 auto;
         }
